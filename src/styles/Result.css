@@ -1,0 +1,39 @@
+.result {
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    background-color: #fff;
+    -webkit-filter: drop-shadow(5px 5px 5px #c5c5c5);
+    filter: drop-shadow(5px 5px 5px #c5c5c5);
+    cursor: default;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+p {
+    padding: 1rem;
+    font-size: 0.5rem;
+    font-weight: 300;
+    text-align: center;
+    border: none;
+    background-color: rgb(250, 242, 250);
+    -webkit-filter: drop-shadow(5px 5px 5px #dddddd);
+    filter: drop-shadow(5px 5px 5px #dddddd);
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    cursor: pointer;
+}

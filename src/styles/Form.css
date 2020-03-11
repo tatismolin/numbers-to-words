@@ -1,0 +1,44 @@
+.input-form {
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    background-color: #fff;
+    -webkit-filter: drop-shadow(5px 5px 5px #c5c5c5);
+    filter: drop-shadow(5px 5px 5px #c5c5c5);
+}
+    
+input {
+    padding: 0.5rem;
+    border: none;
+    background-color: white;
+    -webkit-filter: drop-shadow(5px 5px 5px #dddddd);
+    filter: drop-shadow(5px 5px 5px #dddddd);
+}
+  
+input:hover {
+    background-color: white;
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(250, 242, 250));
+    filter: drop-shadow(5px 5px 5px rgb(250, 242, 250));
+    transition: 0.3s;
+}
+  
+button {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    border: none;
+    background-color: rgb(250, 242, 250); 
+    -webkit-filter: drop-shadow(5px 5px 5px #dddddd);
+    filter: drop-shadow(5px 5px 5px #dddddd);
+    cursor: pointer; 
+}
+  
+button:hover {
+    background-color: rgb(252, 239, 252);
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(250, 242, 250));
+    filter: drop-shadow(5px 5px 5px rgb(250, 242, 250));
+    transition: 0.3s;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Result.css";
 
 function Result({newValue}){
 
