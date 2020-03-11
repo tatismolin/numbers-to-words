@@ -2,7 +2,6 @@ import React, {Component} from "react";
 import Result from "./Result";
 import "../styles/Form.css";
 
-
 class Form extends Component{
 
     state = {
@@ -90,11 +89,16 @@ class Form extends Component{
             {newValue === " "
                 ? (<form className="input-form">
                     <input 
+                        name="number"
                         placeholder="Please enter a number..."
                         type="number"
                         onChange={this.handleChange}>
                     </input>
-                    <button type="submit">SUBMIT</button>
+                    <button 
+                        id="button-test-id"
+                        type="submit">
+                        SUBMIT
+                    </button>
                   </form>)
                 : <Result newValue={newValue} />
             }
