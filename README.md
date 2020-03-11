@@ -19,7 +19,7 @@
 - [x] basic numbers to words conversion functionality;
 - [x] documentation;
 - [ ] unit tests;
-- [ ] deployment.
+- [x] deployment.
 
 
 **Created by Tatiana Smolin.**
