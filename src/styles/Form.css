@@ -1,3 +1,6 @@
+body { font-size: 16px; }
+input, select { font-size: 100%; }
+
 .input-form {
     margin: 0 auto;
     margin-top: 2rem;
